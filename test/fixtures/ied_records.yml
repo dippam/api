@@ -1,0 +1,58 @@
+mexicano:
+  id: 20476
+  uuid: RC{0000764E-BE37-41E9-B511-37283535F46F}
+  name: Brig Mexicano, Liverpool to Philadelphia.
+  srcdoc: 
+  source: "Print-out of Mic 333/1/17: Microfilmed by Courtesy of the National Archives, Washington DC, U.S.A."
+  chapcode: 4
+  transcript: "28 September 1810\n
+                            Brig Mexicano\n
+                               From\n
+                             Liverpool\n
+\n
+Brig = Mexicano:  Master = Charles Hardy:  From = Liverpool:\n
+Burthen = [?] tons:  Built at = Hamburg:  Owned by = [?]:  Of = [?]:\n
+Bound for = Philadelphia:\n
+\n
+          Names              |               Baggage\n
+\n
+Mrs Hardy                       Two trunks wearing apparel\n
+                                one trunk wearing apparel\n
+                                bed & bedding"
+  institution_id: 491
+  ied_chapter_id: 23
+  timestamp: 1810-09-28 00:00:00
+  archive: The Public Record Office, Northern Ireland.
+  serial: 8906127
+  recorddate: 18100928
+  recordlog: Document added by JM  23:09:1993
+  recordtype: SHP
+  
+mexicano2:
+  uuid: RC{0000764E-BE37-41E9-B511-37283535F46F}
+  name: Brig Mexicano, Liverpool to Philadelphia.
+  srcdoc: 
+  source: "Print-out of Mic 333/1/17: Microfilmed by Courtesy of the National Archives, Washington DC, U.S.A."
+  chapcode: 4
+  transcript: "28 September 1810\n
+                            Brig Mexicano\n
+                               From\n
+                             Liverpool\n
+\n
+Brig = Mexicano:  Master = Charles Hardy:  From = Liverpool:\n
+Burthen = [?] tons:  Built at = Hamburg:  Owned by = [?]:  Of = [?]:\n
+Bound for = Philadelphia:\n
+\n
+          Names              |               Baggage\n
+\n
+Mrs Hardy                       Two trunks wearing apparel\n
+                                one trunk wearing apparel\n
+                                bed & bedding"
+  institution_id: 491
+  ied_chapter_id: 23
+  timestamp: 1810-09-28 00:00:00
+  archive: The Public Record Office, Northern Ireland.
+  serial: 8906127
+  recorddate: 18100928
+  recordlog: Document added by JM  23:09:1993
+  recordtype: SHP

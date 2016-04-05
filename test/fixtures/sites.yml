@@ -1,0 +1,24 @@
+dippam:
+  subdomain: www
+  title: "Documenting Ireland: Parliament, People and Migration"
+  short_title: DIPPAM
+
+eppi:
+  subdomain: eppi
+  title: Enhanced Parliamentary Papers on Ireland
+  short_title: EPPI
+
+ied:
+  subdomain: ied
+  title: Irish Emigration Database
+  short_title: IED
+
+vmr:
+  subdomain: vmr
+  title: Voices of Migration and Return
+  short_title: VMR
+
+admin:
+  subdomain: admin
+  title: Content Management System
+  short_title: Admin
