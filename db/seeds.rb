@@ -1,0 +1,5 @@
+Site.create subdomain: 'www',	short_title: 'DIPPAM',	title: 'Documenting Ireland: Parliament, People and Migration'
+Site.create subdomain: 'ied',	short_title: 'IED',	title: 'Irish Emigration Database'
+Site.create subdomain: 'vmr',	short_title: 'VMR',	title: 'Voices of Migration and Return'
+Site.create subdomain: 'eppi',	short_title: 'EPPI',	title: 'Enhanced British Parliamentary Papers of Ireland'
+Site.create subdomain: 'admin',	short_title: 'Admin',	title: 'Content Management System'
