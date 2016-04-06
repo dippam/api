@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160406224116) do
+ActiveRecord::Schema.define(version: 20160406224117) do
 
   create_table "collections", force: :cascade do |t|
     t.string   "name"
@@ -228,6 +228,14 @@ ActiveRecord::Schema.define(version: 20160406224116) do
   end
 
   add_index "pages", ["document_id"], name: "document_id"
+
+  create_table "places", force: :cascade do |t|
+    t.string   "name"
+    t.float    "lat"
+    t.float    "lng"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "sites", force: :cascade do |t|
     t.string   "subdomain"
