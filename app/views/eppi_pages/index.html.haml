@@ -1,0 +1,5 @@
+- title 'Pages'
+
+%ul
+  - @pages.each do |page|
+    %li= link_to page.ordinal, [page.eppi_document, page]

@@ -1,0 +1,9 @@
+%fieldset
+  = label_tag :all, 'Select All'
+  = check_box_tag 'facets[0]', checked: facet.key?('0')
+  = "Total: #{@results.total}"
+  %span.count 0
+  - @results.facet(:eppi_doctype_id).rows.each do |c|
+    = label_tag "#{name}[#{c.id}]", c.name
+    = check_box_tag "facets[#{c.id}]", checked: c.key?
+    %span.count= c.count

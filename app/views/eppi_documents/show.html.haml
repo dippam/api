@@ -1,0 +1,92 @@
+- title @document.eppi_breviate.title
+
+#toolbar
+  = link_to "Results for '#{params[:q]}'", eppi_documents_url
+  = link_to 'PDF', @document.pdf_location
+  = link_to 'Transcript', @document, format: :txt
+  %form
+    = label_tag :q, 'Search within'
+    = text_field_tag :q
+    = submit_tag 'Go'
+  .pagination
+    %span.info= "#{@document.eppi_pages.size} Pages"
+    = link_to 'View', [@document, @document.eppi_pages.first]
+
+#metadata
+  %h2 Document Metadata
+  = link_to 'Open Document', [@document, @document.eppi_pages.first]
+  %dl
+    %dt Source
+    %dd= @document.source
+    %dt Paper No
+    %dd= @document.paper_no
+    - if @document.title_actual.present?
+      %dt Title Actual
+      %dd= @document.title_actual
+    - if @document.corp_authors.present?
+      %dt Corp Authors
+      %dd= @document.corp_authors
+    %dt LC Subject Heading
+    %dd= @document.eppi_lc_subject.full_name
+    %dt Breviate Keywords
+    %dd= @document.eppi_breviate.keywords
+    - if @document.personal_author.present?
+      %dt Personal Author
+      %dd= @document.personal_author
+    - if @document.publisher.present?
+      %dt Publisher
+      %dd= @document.publisher
+    - unless @document.eppi_breviate.eppi_volume.nil?
+      %dt Breviate Volume
+      %dd= @document.eppi_breviate.eppi_volume.name
+    %dt Breviate Page
+    %dd= @document.breviate_page
+    - if @document.tables.present?
+      %dt Tables
+      %dd= @document.tables
+    - if @document.series.present?
+      %dt Series
+      %dd= @document.series
+    - if @document.chairman.present?
+      %dt Chairman
+      %dd= @document.chairman
+    - if @document.abstract.present?
+      %dt Abstract
+      %dd= @document.abstract
+    - if @document.pages_sectioned.present?
+      %dt Pages Sectioned
+      %dd= @document.pages_sectioned
+    - if @document.held_by.present?
+      %dt Held By
+      %dd= @document.held_by
+    - if @document.additional_components.present?
+      %dt Additional Components
+      %dd= @document.additional_components
+    %dt Start Page
+    %dd= @document.start_page
+    %dt Volume
+    %dd= @document.vol
+    %dt Sub Volume
+    %dd= @document.subvol_arabic
+    %dt Session
+    %dd= @document.eppi_session.name
+    - if @document.published.present?
+      %dt Published
+      %dd= @document.published
+    - if @document.appointed.present?
+      %dt Appointed
+      %dd= @document.appointed
+
+#hits
+  %h2 Hits
+  %p
+    %em Term
+    %span.highlight= params[:q]
+  %h3 View Matched Pages
+  %ul
+    - @results.each_hit_with_result do |h, d|
+      %li
+        %span.page= link_to "Page #{d.ordinal + 1}", [@document, d]
+        - h.highlights(:content).each do |j|
+          - s = raw j.format {|w| w}
+          %p= link_to highlight(s, params[:qclean]), [@document, d]

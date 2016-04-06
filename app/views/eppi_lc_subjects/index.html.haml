@@ -1,0 +1,9 @@
+- title 'Library of Congress Headings'
+
+#toolbar
+  - if @eppi_lc_subjects.size > 0
+    = will_paginate @eppi_lc_subjects
+
+%ul
+  - @eppi_lc_subjects.each do |subject|
+    %li= link_to subject.full_name, subject

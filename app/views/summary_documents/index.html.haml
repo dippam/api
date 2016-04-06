@@ -1,0 +1,24 @@
+%form
+  = render partial: 'shared/pagination'
+  %fieldset
+    = text_field_tag :qclean, params[:q]
+    = text_field_tag :qclean, params[:q]
+    = submit_tag 'Search'
+    = hidden_field_tag :sort, :timestamp
+    = hidden_field_tag :sort_dir, :asc
+
+%table
+  %thead
+    %tr
+      %th Title
+      %th Year
+      %th Type
+  %tbody
+    - @results.each_hit_with_result do |hit, r|
+      - year = ''
+      - year = r.source.timestamp.year if r.source.class == IedRecord and r.source.timestamp.present?
+      - year = r.source.session if r.source.class == EppiDocument      
+      %tr
+        %td= link_to highlight(r.save_title, params[:q]), record_url(r.source)          
+        %td= year
+        %td= r.source.class

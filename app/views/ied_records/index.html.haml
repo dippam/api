@@ -1,0 +1,28 @@
+%form
+  = render partial: 'shared/search'
+  %fieldset.time
+    %legend Date Range
+    = label_tag :start, 'Start'
+    = text_field_tag :start, params[:start]
+    = label_tag :end, 'End'
+    = text_field_tag :end, params[:end]
+  = render partial: 'shared/facets', locals: { collection: @facets, name: :cat, facet: params[:cat] }
+  = hidden_field_tag :sort, :timestamp
+  = hidden_field_tag :sort_dir, :asc
+
+%table
+  %thead
+    %tr
+      %th Date
+      %th Title
+      %th Type
+  %tbody
+    - @results.each_hit_with_result do |hit, r|
+      %tr
+        %td
+          - unless r.timestamp.nil?
+            = r.timestamp.strftime('%d-%m-%Y') 
+        %tdp= link_to highlight(r.name, params[:q]), r
+        %td
+          - unless r.category.nil?
+            = link_to r.category.name, r.category

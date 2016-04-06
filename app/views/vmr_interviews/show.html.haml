@@ -1,0 +1,56 @@
+- title "Interview: #{@vmr_interview.code}"
+
+#summary
+  %h2 Summary
+  %p= highlight @vmr_interview.summary, params[:q]
+
+
+%dl
+  %dt Gender
+  %dd= @vmr_interview.vmr_gender.name
+  %dt Age
+  %dd= @vmr_interview.vmr_age_group.name
+  %dt Denomination
+  %dd= @vmr_interview.vmr_denomination.name
+  - if @vmr_interview.birthplace.name == @vmr_interview.childhood_residence.name
+    %dt Birthplace
+    %dd= @vmr_interview.birthplace.name
+  %dt Childhood Residence
+  %dd= @vmr_interview.childhood_residence.name
+  %dt Current Residence
+  %dd= @vmr_interview.residence.name
+  %dt Date of Interview
+  %dd= @vmr_interview.date.strftime('%d/%m/%Y')
+
+  - rows = [@vmr_interview.vmr_destinations.size, @vmr_interview.vmr_emigrations.size, @vmr_interview.vmr_returns.size].max
+  #destinations
+    %h2 Destinations
+    %ul
+      - for destination in @vmr_interview.vmr_destinations
+        %li= destination.place.name
+  #destinations
+    %h2 Emigration Decades
+    %ul
+      - for emigration in @vmr_interview.vmr_emigrations
+        %li= emigration.vmr_decade.name
+  #destinations
+    %h2 Return Decades
+    %ul
+      - for retrn in @vmr_interview.vmr_returns
+        %li= retrn.vmr_decade.name
+
+#audio
+  %h2 Listen
+  %table
+    %thead
+      %tr
+        %th
+        %th
+          %audio
+        %th= pretty_duration @vmr_interview.length
+    %tbody
+      - @vmr_interview.vmr_tracks.each_with_index do |track, i|
+        %tr
+          %td= i+1
+          %td= highlight track.keywords[48..-5], params[:q]
+          %td= pretty_duration track.duration

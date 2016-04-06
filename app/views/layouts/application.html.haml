@@ -1,0 +1,12 @@
+!!! 5
+%html
+  %head
+    %link{ rel: :icon,  href: '/favicon.gif', type: 'image/gif' }
+    %title= "DIPPAM | #{yield :title}"
+  %body
+    = yield :aside
+    %main
+      %h1.title= yield :title
+      - flash.each do |kind|
+        #flash{ class: kind }= flash[:notice]
+      = yield

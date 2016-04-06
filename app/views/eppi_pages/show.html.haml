@@ -1,0 +1,14 @@
+- title @page.eppi_document.title
+
+#toolbar
+  - s = "Results for '#{params[:q]}'"
+  = link_to 'Bibliographic Data', @doc
+  = link_to 'PDF', @doc.pdf_location
+  .info= "Page #{@cp} of #{@doc.eppi_pages.size}"
+  - if @cp > 1 && ! @doc.eppi_pages.find_by_ordinal(@cp - 1).nil?
+    = link_to 'Previous', [@doc.id, @doc.eppi_pages.find_by_ordinal(@cp - 1)]
+  - if @cp < @doc.eppi_pages.size and not @doc.eppi_pages.find_by_ordinal(@cp + 1).nil?
+    = link_to 'Next', [@doc.id, @doc.eppi_pages.find_by_ordinal(@cp + 1)]
+
+#facsimile= link_to image_tag(@page.img_src), @page.img_src
+%pre= highlight @page.content, params[:q]

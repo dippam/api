@@ -1,0 +1,32 @@
+%form
+  = render partial: 'shared/search'
+  %fieldset.fields
+    %legend Search Type
+    - values = %w[fulltext titles exact_title code paper_no]
+    - names  = ['Fulltext', 'Titles', 'Exact Title', 'Command No', 'Paper No']
+    - values.each_with_index do |v, i|
+      = radio_button 'search', 'fields', v, id: v, checked: v == params[:fields]
+      %label{ for: v }= names[i]
+  %fieldset.time
+    %legend Date Range
+    = label_tag :chrono, 'Order Chronologically'
+    = text_field_tag :from, params[:from] || EppiSession.earliest
+    = text_field_tag :to, params[:to] || '1922'
+    = check_box_tag :chrono, checked: true
+  = render partial: 'shared/facets', locals: { collection: @doctypes, name: :cat, facet: params[:cat] }
+  = hidden_field_tag :sort, :title
+  = hidden_field_tag :sort_dir, :asc
+%table
+  %thead
+    %tr
+      %th Code
+      %th Breviate Title
+      %th Session
+      %th Pages
+  %tbody
+    - @results.each_hit_with_result do |hit, r|
+      %tr
+        %td= link_to r.code, r
+        %td= link_to highlight(r.eppi_breviate.title, params[:q]), r
+        %td= r.eppi_session.name 
+        %td= r.eppi_pages.size

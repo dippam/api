@@ -1,0 +1,28 @@
+- title highlight(@record.name, params[:q])
+
+.pagination      
+  - unless @results.results.nil?
+    %span= "#{@position + 1} of #{@results.results.size}"
+  - unless @position.nil?
+    - unless @position == 0
+      = link_to 'Previous', record_url(@results.results[@position - 1])
+    - unless @position == @results.results.size - 1
+      = link_to 'Next', record_url(@results.results[@position + 1])
+
+%dl
+  %dt Document ID
+  %dd= @record.serial 
+  %dt Date
+  %dd= @record.timestamp.strftime("%d-%m-%Y")
+  %dt Document Type
+  %dd= link_to @record.category.name, @record.category
+  %dt Archive
+  %dd= link_to @record.institution.name, @record.institution
+  %dt Citation
+  %dd= @record.citation
+
+#transcript
+  %pre= highlight @record.transcript.force_encoding('ISO-8859-1'), params[:q] 
+
+- if @record.ied_enclosures.size > 0 
+  = render partial: :enclosures

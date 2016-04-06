@@ -1,0 +1,7 @@
+- title 'Document Categories'
+
+%ul
+  - @categories.each do |c|
+    %li 
+      = link_to c.name, c
+      %span.results= c.records.size

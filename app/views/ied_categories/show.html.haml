@@ -1,0 +1,25 @@
+- title @category.name
+
+%h3 Document Categories
+%ul
+  - IedCategory.all(order: :name).each do |c|
+    %li= link_to c.name, c
+      
+#toolbar= will_paginate(@records)
+
+%table
+  %thead
+    %tr
+      %th Name
+      %th Institution
+      %th Year
+  %tbody
+    - @records.each do |r|
+      %tr
+        %td= link_to r.name, r
+        %td
+          - unless r.institution.nil?
+            = link_to r.institution.name, r.institution
+        %td.date
+          - unless r.timestamp.nil?
+            = r.timestamp.strftime('%Y')

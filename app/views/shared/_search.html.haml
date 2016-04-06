@@ -1,0 +1,10 @@
+%fieldset
+  = label_tag :qclean, 'Search Terms'
+  = text_field_tag :qclean, params[:qclean]
+  = hidden_field_tag :q, params[:q]
+  = label_tag :exact, 'Only Exact Matches'
+  = check_box_tag :exact, checked: params[:exact]
+  = hidden_field_tag :sort, params[:sort]
+  = hidden_field_tag :sort_dir, params[:sort_dir]
+  = hidden_field_tag :per_page, params[:per_page] || 15
+  = hidden_field_tag :page, params[:page] || 1 

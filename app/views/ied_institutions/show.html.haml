@@ -1,0 +1,7 @@
+- title @institution.name
+
+%p= "Total records: #{@institution.records.size}"
+
+%ul
+  - @institution.records.each do |r|
+    %li= link_to r.name, r

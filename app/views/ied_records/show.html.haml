@@ -1,0 +1,43 @@
+- title highlight(@record.name, params['q'] )
+
+#toolbar
+  = link_to 'PDF', @record, format: :pdf
+  = link_to 'Transcript', @record, format: :transcript
+  .pagination      
+    - unless @position.nil?
+      = "#{@position + 1} of #{@hits.size}"
+      - unless @position == 0
+        = link_to 'Previous', ied_record_url(@hits[@position - 1])
+      - unless @position == @hits.size - 1
+        = link_to 'Next', ied_record_url(@hits[@position + 1])
+
+%table
+  %tbody
+    %tr
+      %td.docid Document ID
+      %td= @record.serial 
+    %tr
+      %td.date Date
+      %td= @record.timestamp.strftime("%d-%m-%Y")
+    %tr
+      %td.type Document Type
+      %td= link_to @record.category.name, @record.category
+    %tr
+      %td.archive Archive
+      %td= link_to @record.institution.name, @record.institution
+    - if @record.institution.name != 'Private Donor'
+      %tr
+        %td.source Source
+        %td= @record.source
+    %tr
+      %td.citation Citation
+      %td= @record.citation
+      
+  %pre.transcript
+    != highlight @record.transcript.force_encoding("ISO-8859-1"), params[:q] 
+
+- unless @record.ied_enclosures.empty?
+  - for e in @record.ied_enclosures
+    .thumbnail
+      = image_tag e.image(:thumb), size: '100x100', alt: e.label
+      %p= e.label

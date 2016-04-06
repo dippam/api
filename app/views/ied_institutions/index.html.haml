@@ -1,0 +1,7 @@
+- title 'Source Archives'
+
+%ul
+  - @archives.each do |i|
+    %li
+      = link_to i.name, i
+      %span.results= i.records.size

@@ -1,0 +1,5 @@
+- title @eppi_lc_subject.full_name
+
+%ul
+  - @eppi_lc_subject.eppi_documents.each do |doc|
+    %li= link_to doc.title, doc
