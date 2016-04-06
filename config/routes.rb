@@ -1,6 +1,5 @@
 Dippam::Application.routes.draw do
-  resources :summary_documents, :vmr_tracks, :vmr_interviews,
-            :eppi_lc_subjects, :ied_institutions
+  resources :summary_documents, :vmr_interviews, :eppi_lc_subjects, :ied_institutions
   resources :eppi_documents do
     resources :eppi_pages do
       get :download, on: :member
