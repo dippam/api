@@ -25,3 +25,4 @@ bower.json
 *.sw?
 *#*
 *~
+/solr/*/data
