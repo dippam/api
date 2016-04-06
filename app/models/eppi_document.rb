@@ -63,19 +63,14 @@ class EppiDocument < ActiveRecord::Base
   end
   
   def vol_roman
-    roman_dict = %[M     CM   D    CD   C    XC  L   XL  X  IX  V IV  I]
-    arabic_dict = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
-    
-    input = vol.to_i
-    output = ''
+    dict = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90,
+             L: 50, XL: 40, X: 10, IX: 9,  V: 5, IV: 4, I: 1 };
+    input, output = vol.to_i, ''
 
-    while input > 0
-      while input > arabic_dict.first
-        input  -= arabic_dict.first
-        output << roman_dict.first 
+    dict.each_pair do |r, a|
+      while input >= a do
+        input -= a; output << r.to_s
       end
-      arabic_dict.shift
-      roman_dict.shift
     end
     
     output
