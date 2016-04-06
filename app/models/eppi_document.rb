@@ -63,16 +63,21 @@ class EppiDocument < ActiveRecord::Base
   end
   
   def vol_roman
-    roman_to_arabic = [['M', 1000], ['CM', 900], ['D', 500], ['CD', 400],
-    ['C', 100], ['XC', 90], ['L', 50], ['XL', 40], ['X', 10], ['IX', 9],
-    ['V', 5], ['IV', 4], ['I', 1]]
-    arabic_to_roman = roman_to_arabic.collect { |x| x.reverse }.reverse
-    number = vol.to_f
-    repr = ''
-    arabic_to_roman.reverse_each do |arabic, roman|
-      num, value = value.divmod number
-      repr << roman * num
+    roman_dict = %[M     CM   D    CD   C    XC  L   XL  X  IX  V IV  I]
+    arabic_dict = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+    
+    input = vol.to_i
+    output = ''
+
+    while input > 0
+      while input > arabic_dict.first
+        input  -= arabic_dict.first
+        output << roman_dict.first 
+      end
+      arabic_dict.shift
+      roman_dict.shift
     end
-    repr
+    
+    output
   end
 end
