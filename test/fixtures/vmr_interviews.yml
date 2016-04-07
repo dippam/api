@@ -1,0 +1,1548 @@
+---
+160:
+  id: 160
+  code: NIENJDT-01
+  summary: 'Robert, 40s, grew up in the village of Kilkeel, Co. Down known for its
+    fishing industry. In the 1980s, he left NI to train in engineering in Birmingham.
+    Since then, he has worked as an engineer in Northern England and the United States
+    and currently lives in a town in the West Midlands. '
+  vmr_denomination_id: 3
+  vmr_gender_id: 91
+  birthplace_id: 18
+  residence_id: 19
+  childhood_residence_id: 18
+  duration: '6300'
+  date: 2006-05-28
+  vmr_age_group_id: 1
+161:
+  id: 161
+  code: NIENJDT-02
+  summary: Michael, 60s, is from a market town in Co. Down. He migrated to Glasgow
+    in the late 1960s to attend university and from there a few years later moved
+    on to the Liverpool area. He eventually settled in Yorkshire where he worked as
+    a social worker in a number of communities for many years. Following his interest
+    in the outdoors, Michael is currently employed as a fisheries officer for the
+    local environment agency.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 18
+  residence_id: 20
+  childhood_residence_id: 18
+  duration: '5880'
+  date: 2006-07-11
+  vmr_age_group_id: 2
+162:
+  id: 162
+  code: NIENJDT-03
+  summary: Barry, 40s, grew up in Newry, Co. Down. After studies in Belfast, he returned
+    to live in Newry for a few years before moving to Liverpool in the mid-1980s,
+    where he is currently employed in the field of social work.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 18
+  residence_id: 21
+  childhood_residence_id: 18
+  duration: '4320'
+  date: 2006-07-11
+  vmr_age_group_id: 1
+163:
+  id: 163
+  code: NIENJDT-04
+  summary: Sam, 60s, grew up in Carrickfergus, Co. Antrim and after working briefly
+    for Courtauld's in Belfast he moved to Liverpool in the 1960s. He worked for British
+    Rail for many years, both in Wolverhampton and Liverpool. Throughout his life
+    Sam has been involved in band music and maintains his membership in his local
+    Carrickfergus silver band, although he resides in the greater Liverpool region.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 22
+  residence_id: 21
+  childhood_residence_id: 22
+  duration: '4320'
+  date: 2006-07-12
+  vmr_age_group_id: 2
+164:
+  id: 164
+  code: NIENJDT-05
+  summary: Paula, 40s, grew up in North Belfast in an interface area. As a teenager
+    she became involved in cross-community youth activities and during the 1980s completed
+    studies in the fields of psychology and social work in Liverpool. She is currently
+    employed as a family therapist in the Liverpool region.
+  vmr_denomination_id: 3
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 21
+  childhood_residence_id: 23
+  duration: '9240'
+  date: 2006-07-12
+  vmr_age_group_id: 1
+165:
+  id: 165
+  code: NIENJDT-06
+  summary: Jane, 40s, grew up in Newtownabbey, Co. Antrim just outside Belfast. She
+    left NI in the late 1970s to study for her teaching qualifications in Liverpool
+    and has since remained. She is currently employed as a teacher.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 21
+  childhood_residence_id: 23
+  duration: '7200'
+  date: 2006-07-13
+  vmr_age_group_id: 1
+166:
+  id: 166
+  code: NIENJDT-07
+  summary: Andrew, 40s, grew up in Drumbo, Co. Antrim, not far from Belfast. Having
+    both medical and legal traditions well established in his family, Andrew chose
+    to pursue medical studies at Queen's University. Having taken various training
+    posts in hospitals in NI and England, Andrew relocated to Southern England in
+    1996 and then to the Liverpool area in 2003 where he is employed as a consultant
+    in paediatrics.
+  vmr_denomination_id: 3
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 21
+  childhood_residence_id: 22
+  duration: '2760'
+  date: 2006-07-13
+  vmr_age_group_id: 1
+167:
+  id: 167
+  code: NIENJDT-08
+  summary: Laura, 40s, grew up in Lurgan, Co. Armagh. After living on a kibbutz in
+    Israel for almost a year in the mid-1970s, she decided to move to England and
+    undertook third level education in the field of psychology in Warwick. Later she
+    lived in Nottingham, but relocated to Liverpool in the early 1980s, where she
+    is currently employed in the social care field.
+  vmr_denomination_id: 3
+  vmr_gender_id: 92
+  birthplace_id: 24
+  residence_id: 21
+  childhood_residence_id: 24
+  duration: '3600'
+  date: 2006-07-13
+  vmr_age_group_id: 1
+168:
+  id: 168
+  code: NIENJDT-09
+  summary: Steve, 40s, grew up in Carrickfergus, Co. Antrim. He later attended university
+    in Coleraine and worked in Belfast in youth work. Having seriously considered
+    the possibility of emigrating to Canada, where he had close relatives, Steve accepted
+    a job offer in Liverpool in the early 1990s.
+  vmr_denomination_id: 3
+  vmr_gender_id: 91
+  birthplace_id: 22
+  residence_id: 21
+  childhood_residence_id: 22
+  duration: '5700'
+  date: 2006-07-14
+  vmr_age_group_id: 1
+169:
+  id: 169
+  code: NIENJDT-10
+  summary: Brian, 50s, was raised in Newtownards, North Down. After attending boarding
+    school in Co. Antrim, he attended Queen's University in the late 1960s and became
+    involved in the civil rights movement. In the early 1970s, Brian moved to Liverpool
+    for one year but had to return to Belfast due to a serious illness in the family.
+    He relocated permanently to Liverpool in 1975 where he is currently employed in
+    the social work field.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 21
+  childhood_residence_id: 18
+  duration: '6420'
+  date: 2006-07-14
+  vmr_age_group_id: 3
+170:
+  id: 170
+  code: NIENJDT-11
+  summary: Shane, 40s, grew up in Lisburn and later attended college in Coleraine.
+    He then found employment in Belfast as a community care worker in the mental health
+    field. Having worked briefly in Edinburgh, he relocated to Liverpool in 2001 where
+    he works in a day centre.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 18
+  residence_id: 21
+  childhood_residence_id: 23
+  duration: '6960'
+  date: 2006-07-14
+  vmr_age_group_id: 1
+171:
+  id: 171
+  code: NIENJDT-12
+  summary: Orla, 40s, was raised in North Belfast in what she describes as a neighbourhood
+    'under siege.' In 1976, she moved to Bristol for a year, then returned to Belfast
+    for a couple of years and eventually relocated to Liverpool to continue her education.
+    In 1981, she returned to Belfast and was employed in community and social work
+    in the west and north areas of the city. A year later she decided to relocate
+    permanently to Liverpool, where she is currently employed in the counselling field.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 21
+  childhood_residence_id: 23
+  duration: '8280'
+  date: 2006-07-15
+  vmr_age_group_id: 1
+172:
+  id: 172
+  code: NIENJDT-13
+  summary: Liz, 60s, was raised in a working class neighbourhood in East Belfast.
+    In 1974, due largely to the Troubles, she and her husband decided to move their
+    young family to Toronto where she qualified as a real estate agent. They later
+    lived for several years in Sudbury, Northern Ontario, and spent a year in Roanoke,
+    Virginia, before settling again in Toronto. Recently, they have acquired a base
+    in North Down with a plan of dividing their time between NI and Toronto.
+  vmr_denomination_id: 3
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 25
+  childhood_residence_id: 23
+  duration: '5700'
+  date: 2006-08-07
+  vmr_age_group_id: 3
+173:
+  id: 173
+  code: NIENJDT-14
+  summary: Siobhan, 40s, was born and raised in Omagh, Co. Tyrone. After nursing training
+    in Belfast she relocated to Reading, England. In 1985, Siobhan took a 2-year post
+    in nursing and mid-wifery in Kenya. After several years back in London and Oxford,
+    Siobhan and her physician husband took a 3-year posting in Gambia, West Africa.
+    The family returned to Omagh for a few years and then relocated to the Liverpool
+    area in 2003.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 26
+  residence_id: 21
+  childhood_residence_id: 26
+  duration: '6600'
+  date: 2006-08-14
+  vmr_age_group_id: 1
+174:
+  id: 174
+  code: NIENJDT-15
+  summary: Bill, early 70s, grew up in the East Belfast area of Sydenham and remembers
+    being evacuated to rural Tyrone as a child during World War Two. His parents and
+    grandparents had originally emigrated to Canada in 1928, his parents returning
+    to NI shortly thereafter. Bill trained as an architect in Belfast and then decided
+    to emigrate with some friends, arriving in Canada by ship in November 1952. His
+    parents re-emigrated with his siblings the following year to join him in Toronto
+    where his father worked for Eaton's Department Store and his mother started an
+    emigrants' social club. Apart from a 2-year stint in California, Bill spent his
+    career working on projects all around Canada, including the Canadian Arctic. He
+    is now retired and living with his Dublin-born wife in Toronto.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 25
+  childhood_residence_id: 23
+  duration: '7620'
+  date: 2006-09-13
+  vmr_age_group_id: 4
+175:
+  id: 175
+  code: NIENJDT-16
+  summary: Stanley, early 70s, was born and raised in Omagh, Co. Tyrone. After a number
+    of years in the RUC stationed in South Down during the 1950s, he and his wife
+    moved to Hamilton, Ontario in 1957. In Canada, Stanley trained in business administration
+    and accounting and worked in several smaller towns around Southern Ontario before
+    settling in the greater Toronto area, where he is now retired.
+  vmr_denomination_id: 4
+  vmr_gender_id: 91
+  birthplace_id: 26
+  residence_id: 25
+  childhood_residence_id: 26
+  duration: '8340'
+  date: 2006-09-14
+  vmr_age_group_id: 4
+176:
+  id: 176
+  code: NIENJDT-17
+  summary: John, 50s, was raised in South Belfast. He attended Inst (Belfast Royal
+    Academical Institution) and later studied psychology at Queen's University. In
+    the late 1960s, John took up the opportunity for graduate studies in the United
+    States, first in Ithaca, NY and later in Boston. He accepted the offer of an academic
+    post in Toronto in 1972 and has since become a leading specialist in the field
+    of perception and cognition with special emphasis on the experience of the blind.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 25
+  childhood_residence_id: 23
+  duration: '8040'
+  date: 2006-09-15
+  vmr_age_group_id: 3
+177:
+  id: 177
+  code: NIENJDT-18
+  summary: David, 50s, spent his early childhood in Whitehead, Co. Antrim. He left
+    NI at the age of 8, a child migrant, with his family to relocate to England where
+    his father was employed in the newly-developing nuclear industry. The family moved
+    around England and David eventually attended university in York and in Wales.
+    David's parents emigrated to Canada in the early 1970s as David's father was employed
+    at the Chalk River Nuclear facility in the Ottawa Valley of Ontario. He followed
+    them in 1974, undertaking graduate studies in history at Queen's University Kingston.
+    After graduation, David held a number of teaching posts, worked as a documentary
+    producer for CBC Radio, and returned to Belfast for 2 years from 1985-87. He currently
+    lives and teaches in Toronto.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 22
+  residence_id: 25
+  childhood_residence_id: 22
+  duration: '8760'
+  date: 2006-09-15
+  vmr_age_group_id: 3
+178:
+  id: 178
+  code: NIENJDT-19
+  summary: Kevin, 40s, is an internationally known violinist and conductor who grew
+    up in North Belfast. Following musical studies in England with John Eliot Gardiner,
+    Kevin performed with several orchestras and chamber ensembles in Ireland and England
+    and as concert-master with Les Arts Florissants and Le Concert Spirituel in Paris.
+    In 1993, Kevin relocated to Toronto to take up positions at the University of
+    Toronto and Tafelmusik Baroque Orchestra. He formed the Toronto-based Aradia Ensemble
+    in 1996 which he continues to direct and has made over forty recordings for the
+    Naxos label.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 25
+  childhood_residence_id: 23
+  duration: '7200'
+  date: 2006-09-15
+  vmr_age_group_id: 1
+179:
+  id: 179
+  code: NIENJDT-20
+  summary: Craig, 60s, grew in up in the Oldpark neighbourhood of North Belfast. Employed
+    as a travelling salesman in NI, he travelled to Toronto in 1964 to attend his
+    brother's wedding and decided that he wanted to stay. Landing a job in the financial
+    services sector proved rewarding and from there he moved into the banking industry.
+    Craig currently lives in the Toronto area, from where he runs his own consultancy
+    in the international banking sector, working on contracts in Canada, Europe and
+    Ireland.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 25
+  childhood_residence_id: 23
+  duration: '14100'
+  date: 2006-09-16
+  vmr_age_group_id: 2
+180:
+  id: 180
+  code: NIENJDT-21
+  summary: Pamela, 40s, grew up in East Donegal. While in her late teens she moved
+    with her widowed mother to North Down and attended further education in Belfast.
+    Between the late 1970s and late 1990s, Pamela opened and managed several restaurants
+    in Belfast. She then worked between Canada, London and Belfast for a few years
+    before relocating in 2002 to Toronto, where she is currently employed in the banking
+    industry.
+  vmr_denomination_id: 3
+  vmr_gender_id: 92
+  birthplace_id: 27
+  residence_id: 25
+  childhood_residence_id: 23
+  duration: '7200'
+  date: 2006-09-17
+  vmr_age_group_id: 1
+181:
+  id: 181
+  code: NIENJDT-22
+  summary: Susannah, 70s, was born and raised in Belfast. As a young woman she was
+    employed in the Northern Ireland civil service. In the summer of 1970, after the
+    onset of the Troubles, she, her husband and young children emigrated, first settling
+    in Kitchener, Ontario. After a few years the family moved to the small town of
+    Kincardine Ontario on the shores of Lake Huron. This remained their base, even
+    when Susannah and her husband, an engineer, were posted to Indonesia for several
+    years during the 1990s.
+  vmr_denomination_id: 3
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 28
+  childhood_residence_id: 23
+  duration: '5880'
+  date: 2006-09-18
+  vmr_age_group_id: 2
+182:
+  id: 182
+  code: NIENJDT-23
+  summary: 'Larry, 70s, grew up in Holywood, North Down, just outside of Belfast and
+    remembers well his childhood experiences of World War Two. While working in a
+    local grocery as a young man, Larry nurtured the desire to travel. After spotting
+    an ad in the newspaper, he left for Australia in 1951 and began work in Melbourne
+    as a tramway conductor. This was followed by several jobs around Australia, including
+    a period on a sheep station. On a promised return visit home, Larry happened to
+    meet a friend who was migrating to Canada. He made a snap decision to join his
+    friend, intending to eventually continue on back to Australia. He arrived in Canada
+    in 1954, eventually married a Canadian, and lived in Toronto, Sudbury and Vancouver
+    before eventually settling on a farm near Lucknow, Ontario, close to Lake Huron.  Larry
+    worked principally in the printing and office supply business eventually setting
+    up his own successful business which his son now runs. Larry loves the rural life
+    on his farm where he '
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 28
+  childhood_residence_id: 23
+  duration: '8880'
+  date: 2006-09-19
+  vmr_age_group_id: 4
+183:
+  id: 183
+  code: NIENJDT-24
+  summary: Martin, 40s, a licensed stock broker for a major Canadian bank, grew up
+    in North Belfast. After attending Queen's University, he worked in Armagh before
+    emigrating in 1987, establishing himself first in Toronto and later in Windsor,
+    Ontario, where he currently lives. Cas, 60s, and Colette, 60s are a married couple
+    who also live in Windsor. Cas, from Armagh, is a retired teacher, and Colette
+    from a village in South Tyrone, is a hairdresser. They emigrated from Armagh in
+    1974 after experiencing several dangerous incidents during the early years of
+    the Troubles. Martin, Cas, and Colette are all active in the Irish community in
+    Windsor. The group interview was recorded over dinner at Martin's house.
+  vmr_denomination_id: 1
+  vmr_gender_id: 93
+  birthplace_id: 29
+  residence_id: 28
+  childhood_residence_id: 0
+  duration: '9180'
+  date: 2006-09-20
+  vmr_age_group_id: 1
+184:
+  id: 184
+  code: NIENJDT-25
+  summary: Kate, 30s, was raised in Enniskillen, Co. Fermanagh where her family had
+    a green grocer's business. After a year in Dublin studying film and television
+    production, Kate relocated to Belfast where she lived for 12 years working in
+    documentary film production. During this time, she availed of the opportunity
+    to take a 3-month exchange programme working in the Toronto film industry. In
+    1994, Kate relocated to Toronto where she lives her husband and son.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 33
+  residence_id: 25
+  childhood_residence_id: 33
+  duration: '6420'
+  date: 2006-09-21
+  vmr_age_group_id: 5
+185:
+  id: 185
+  code: NIENJDT-26
+  summary: Margaret, 60s, was raised on a farm in West Tyrone. She emigrated in 1968
+    with her husband to Toronto. In 1973, Margaret's husband was killed in an accident
+    leaving her a widow with 3 young children. Although her family encouraged her
+    to return to Ireland at this time, Margaret decided to stay in Canada. She remarried
+    a few years later and had 3 more children. Margaret has been very active in the
+    Irish community, establishing the Tyrone Association in Toronto and as a member
+    of the Action Grosse Ile executive committee which successfully lobbied to establish
+    the Irish Memorial National Historic Site on the island. She currently lives in
+    Toronto.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 26
+  residence_id: 25
+  childhood_residence_id: 26
+  duration: '9540'
+  date: 2006-09-22
+  vmr_age_group_id: 2
+186:
+  id: 186
+  code: NIENJDT-27
+  summary: Herb and Edith, 70s, are a married couple who live in Toronto. Herb grew
+    up in the Springfield Road neighbourhood of West Belfast and Edith was born in
+    Lurgan, Co. Armagh although her family moved to the Highfield estate in West Belfast
+    when she was still quite young. Herb was employed in the Post Office prior to
+    the couple's decision to emigrate in 1957 and join Herb's sister who was already
+    established in Toronto. Edith found a job at Eaton's Department Store and Herb
+    joined the Toronto Police Force where he rose through the ranks to detective.
+    Many family members followed them subsequently to Toronto.
+  vmr_denomination_id: 4
+  vmr_gender_id: 93
+  birthplace_id: 23
+  residence_id: 25
+  childhood_residence_id: 23
+  duration: '9000'
+  date: 2006-09-23
+  vmr_age_group_id: 4
+187:
+  id: 187
+  code: NIENJDT-28
+  summary: Richard, 30s, was raised in Cookstown, Co. Tyrone and after secondary school
+    moved to Belfast where he lived for 5 years. In 1998, Richard relocated to Toronto
+    where he had relations and became involved teaching outdoor adventure activities
+    such as canoeing, sailing, and backpack tripping to young people, some of whom
+    had been brought over from NI on youth exchange programmes. After a year spent
+    travelling and working in Australia (1999), Richard decided to return to Toronto
+    where he has lived ever since. He continues to be involved in community youth
+    work and business.
+  vmr_denomination_id: 3
+  vmr_gender_id: 91
+  birthplace_id: 26
+  residence_id: 25
+  childhood_residence_id: 26
+  duration: '6420'
+  date: 2006-09-24
+  vmr_age_group_id: 5
+188:
+  id: 188
+  code: NIENJDT-29
+  summary: Fergus, 60s, grew up in the Oldpark neighbourhood of Belfast. At the age
+    of 21, Fergus decided to emigrate and arrived in Montreal, Canada in June 1960
+    aboard the Empress of France. He took a train onward to Toronto where a few NI
+    acquaintances gave him temporary accommodation. Because Fergus had a driver's
+    license he was able to find work immediately driving a truck for a moving and
+    transport firm. Through a lucky chance meeting, Fergus got a job with Household
+    Finance and from there developed a career in finance and banking. At the time
+    of his interview, he was runing his own business, based in Prince Edward County,
+    Ontario.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 28
+  childhood_residence_id: 23
+  duration: '6960'
+  date: 2006-09-25
+  vmr_age_group_id: 2
+189:
+  id: 189
+  code: NIENJDT-30
+  summary: Noelle, 60s, was raised in a suburb of South Belfast. After training in
+    Belfast as a physiotherapist, she responded to an employment advertisement for
+    a post in Edmonton, Alberta and emigrated in 1959. With her Canadian husband she
+    moved to Yellowknife, Northwest Territories, in the early 1960s, followed by moves
+    to Grande Prairie and Edmonton, Alberta, eventually settling in Ottawa, Ontario
+    where she currently lives. Throughout her life in Canada, Noelle developed her
+    career in physiotherapy eventually establishing and directing an important facility
+    at a major Ottawa hospital. Noelle took early retirement to further develop interests
+    in music and theatre and she is active in the Ottawa Irish community.
+  vmr_denomination_id: 3
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 34
+  childhood_residence_id: 23
+  duration: '7740'
+  date: 2006-09-28
+  vmr_age_group_id: 2
+190:
+  id: 190
+  code: NIENJDT-31
+  summary: Jack and Shirley, both in their early 70s, are a married couple who live
+    in a suburb of Ottawa. They both come from towns in South Co. Down. Jack emigrated
+    with a couple of friends in late 1952 and worked in land surveying and development,
+    first in Toronto and later in the Ottawa area, where he established his own business.
+    Shirley emigrated in 1957 to Toronto with Jack's sister, married Jack, and raised
+    a family of four children.
+  vmr_denomination_id: 3
+  vmr_gender_id: 93
+  birthplace_id: 18
+  residence_id: 34
+  childhood_residence_id: 18
+  duration: '7500'
+  date: 2006-09-29
+  vmr_age_group_id: 4
+191:
+  id: 191
+  code: NIENJDT-32
+  summary: Thomas, 50s, was born in Scotland of Tyrone parents. At the age of 5, the
+    family relocated to Belfast where Thomas spent the rest of his youth. In the early
+    1970s and due largely to the conservative nature of the society, Thomas moved
+    to London where he worked as a labourer for a few years. Returning to Belfast,
+    he worked at the Musgrave Park Hospital where he became involved in the trade
+    union movement. He moved back to London in 1979 and entered third level education.
+    After working at several jobs, including the book trade, Thomas ran his own book
+    shop for several years. At the time of his interview, Thomas was living in South
+    East London recovering from a serious illness. He maintains a strong interest
+    in trade unionism and history of the working classes, including the particular
+    situation of the Irish in London.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 35
+  childhood_residence_id: 23
+  duration: '8280'
+  date: 2007-02-13
+  vmr_age_group_id: 3
+192:
+  id: 192
+  code: NIENJDT-33
+  summary: David, 60s, was born in Belfast to a Dublin mother and Cork father.When
+    David was still a young child the family moved to Cork City. In his late teens,
+    David moved back to Belfast where he found clerical work. He later moved to London
+    in the 1960s where he worked in the civil service and made a career in the telecommunications
+    industry. David is retired and lives in East Sussex but commutes frequently to
+    London where he is active with several organisations.
+  vmr_denomination_id: 3
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 36
+  childhood_residence_id: 37
+  duration: '7440'
+  date: 2007-02-13
+  vmr_age_group_id: 2
+193:
+  id: 193
+  code: NIENJDT-34
+  summary: Aimie, 70s, was born and raised in North Belfast. During the Second World
+    War, she served in the Royal Army Ordnance Corps and was stationed at the Holywood
+    Barracks where she met her English husband. After the war, Aimie and her young
+    son left Belfast in 1947 to join her husband in Dagenham. The family later lived
+    in several towns in Essex such as Romford and Hutton, Aimie and her husand eventually
+    retiring to Colchester.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 38
+  childhood_residence_id: 23
+  duration: '5760'
+  date: 2007-02-14
+  vmr_age_group_id: 4
+194:
+  id: 194
+  code: NIENJDT-35
+  summary: Eileen, 40s, grew up in West Belfast. After secondary school she attended
+    the University of Ulster studying sociology. In 1984 largely due to the poor economy,
+    Eileen moved to London where she was employed in the civil service, including
+    a job in the 'dole' office, and later worked in international business.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 35
+  childhood_residence_id: 23
+  duration: '5820'
+  date: 2007-02-14
+  vmr_age_group_id: 1
+195:
+  id: 195
+  code: NIENJDT-36
+  summary: Imelda, 60s, and Lily, 70s, are two sisters from Newry, Co. Down. Lily
+    moved to London to train as a nurse in the early 1950s, but caught polio and was
+    sent home for an extensive period of recuperation. She later returned to London
+    as a nurse and met her Southern Irish husband. They returned to Newry during the
+    early years of the Troubles with their children hoping to set up life in Ireland,
+    but after several months went back to London. After secondary school, Imelda worked
+    in a local factory for several years before deciding in the late 1960s to join
+    her sister in London and train as a nurse. She later married a London husband,
+    continuing to work in nursing. The sisters, both now widows, are retired and living
+    in the suburbs of London.
+  vmr_denomination_id: 1
+  vmr_gender_id: 94
+  birthplace_id: 18
+  residence_id: 35
+  childhood_residence_id: 18
+  duration: '12900'
+  date: 2007-02-15
+  vmr_age_group_id: 2
+196:
+  id: 196
+  code: NIENJDT-37
+  summary: Rosemary, 30s, grew up on middle class housing estate in West Belfast.
+    She left Belfast in 1989 to attend university in the London area and has remained
+    ever since. Now married with children, she works as a university lecturer in London
+    but hopes to return to Ireland eventually.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 35
+  childhood_residence_id: 23
+  duration: '5700'
+  date: 2007-02-16
+  vmr_age_group_id: 5
+197:
+  id: 197
+  code: NIENJDT-38
+  summary: Gary, 30s, grew up in Dungannon, Co. Tyrone. After attending Queen's University,
+    he worked as an accountant in a local factory, before relocating in the early
+    1990s to Glasgow, where he was employed by a multi-national company in their property
+    department. In 1995, he was transferred to London where he worked for a number
+    of multi-national firms in international property before setting up his own property
+    development business. Having now diversified his business into other areas, Gary
+    also hosts a popular television programme about property development.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 26
+  residence_id: 35
+  childhood_residence_id: 26
+  duration: '3360'
+  date: 2007-02-16
+  vmr_age_group_id: 5
+198:
+  id: 198
+  code: NIENJDT-39
+  summary: Mary, 50s, grew up in a small village in South Armagh. After attending
+    Queen's University and St. Mary's College of Education in Belfast, she took a
+    teaching post in Ipswich in 1971. There she married her husband, a Northern Protestant
+    she had met at Queen's. Because of the mixed marriage, Mary felt there was little
+    chance of returning to NI and they made the decision to raise their children in
+    England, eventually settling in West Sussex.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 24
+  residence_id: 36
+  childhood_residence_id: 24
+  duration: '5820'
+  date: 2007-02-17
+  vmr_age_group_id: 3
+199:
+  id: 199
+  code: NIENJDT-40
+  summary: Chris grew up first in Belfast and then in Lisburn. After medical studies
+    at Queen's University, Chris moved to England in 1972, taking up training posts
+    in Norwich and later in Norfolk. At the suggestion of a New Zealand colleague,
+    Chris and his NI wife decided to move to New Zealand where conditions for employment
+    for physicians were significantly better than the UK. Chris and his family continue
+    to live in New Zealand and return to NI for visits every few years.
+  vmr_denomination_id: 3
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 39
+  childhood_residence_id: 23
+  duration: '5340'
+  date: 2007-03-07
+  vmr_age_group_id: 3
+200:
+  id: 200
+  code: NIENJDT-41
+  summary: Sheila, 50s, grew up in West Tyrone. She was placed in Coneywarren Orphanage
+    in Omagh, by her birth mother and from there was eventually fostered out to a
+    rural Tyrone family. After training as a nurse in Omagh, she moved to Belfast
+    in 1969, working as a nurse and later with the Barnados children's services. After
+    her marriage in 1972, she and her husband relocated briefly to Cork for several
+    months but returned to Belfast. In 1980, the couple moved to Hamilton, Ontario,
+    where Sheila's husband had taken an academic post. In 1986 following the break-up
+    of her marriage, Sheila moved to Vancouver where she became involved in the trade
+    union movement and eventually met her second husband. At the time of the interview,
+    Sheila was living on a small island off the coast of British Columbia, but she
+    and her husband have since relocated to Southwestern Ontario. Sheila has become
+    an environmental and peace activist and was most particularly involved in the
+    fight to preserve Clayoquot Sound, BC.
+  vmr_denomination_id: 3
+  vmr_gender_id: 92
+  birthplace_id: 26
+  residence_id: 28
+  childhood_residence_id: 26
+  duration: '8580'
+  date: 2007-03-28
+  vmr_age_group_id: 3
+201:
+  id: 201
+  code: NIENJDT-42
+  summary: Peter, 50s, grew up in Belfast. After studies in biology and zoology at
+    Queen's University, he moved to Ayrshire in Scotland to take up work in a laboratory.
+    In 1977, Peter embarked on a 5-month expedition to the Himalayas travelling by
+    van from the UK through the Middle East, India and Afghanistan, collecting specimens
+    which he donated to the Royal Scottish Museum in Edinburgh. Peter relocated to
+    the Isle of Luing off the Scottish coast in 1978 where for many years he worked
+    as an outdoor adventure instructor. He currently commutes from Luing to Oban where
+    he is employed as a marine biologist.
+  vmr_denomination_id: 3
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 40
+  childhood_residence_id: 23
+  duration: '9660'
+  date: 2007-04-27
+  vmr_age_group_id: 3
+202:
+  id: 202
+  code: NIENJDT-43
+  summary: Pat, 60s, grew up in Bangor, North Down. After medical studies at Queen's
+    University specialising as an obstetrician and gynaecologist, Pat worked in several
+    NI hospitals before taking a temporary replacement medical post in Southern Ontario
+    in the summer of 1970. Shortly after his return to NI, Pat made the decision to
+    take another temporary post in Welland, Ontario and from there a post in Calgary,
+    Alberta where he remained for 16 years, becoming a leading specialist in the field
+    of infertility. In 1987, Pat returned to the the UK to head an infertility clinic
+    in England, but after 2 years returned to Canada to a post in Winnipeg, Manitoba.
+    He relocated to Vancouver in 1991 to a post at St. Paul's Hospital. Pat returned
+    to the Belfast area in the autumn of 2007. He is a best-selling author of fiction
+    and has also co-authored several medical textbooks.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 23
+  childhood_residence_id: 23
+  duration: '6300'
+  date: 2007-11-23
+  vmr_age_group_id: 2
+203:
+  id: 203
+  code: NMRCNL-02
+  summary: This participant grew up in Dublin in the 1980s, the daughter of return
+    migrants – her parents had lived in the US. She went to live in England with her
+    sister during her final year at school, and after completing her exams in 1995,
+    emigrated to New York, along with two of her sisters. She worked in the informal
+    sector and lived there for five years in all. She met her husband, who is also
+    Irish, there. They returned to Ireland briefly at one point but did not settle
+    and went back to New York, where their son was born. When their son was two years
+    old, they moved back to Ireland and settled in Co. Kilkenny, where they now live.
+  vmr_denomination_id: 99
+  vmr_gender_id: 92
+  birthplace_id: 41
+  residence_id: 42
+  childhood_residence_id: 41
+  duration: '3660'
+  date: 2004-03-22
+  vmr_age_group_id: 6
+204:
+  id: 204
+  code: NMRCNL-04
+  summary: This participant grew up in Co. Galway in the 1960s and 70s. Many of his
+    friends and family emigrated. After leaving school, he did an apprenticeship in
+    Dublin, where he lived for four years. Soon afterwards, he and his girlfriend
+    emigrated to the US, where they lived for a year. They returned to Ireland in
+    1989 and then travelled on to England, where he got work in machinery repairs
+    with a construction firm. They travelled around England with his company for a
+    few years before moving to Kent, where he worked on the Channel Tunnel. They had
+    one child and returned to Ireland in 1994, where he set up his own business. They
+    have settled in Co. Westmeath and have three children.
+  vmr_denomination_id: 99
+  vmr_gender_id: 91
+  birthplace_id: 43
+  residence_id: 44
+  childhood_residence_id: 43
+  duration: '3600'
+  date: 2004-05-10
+  vmr_age_group_id: 1
+205:
+  id: 205
+  code: NMRCNL-05
+  summary: This participant grew up in Co. Sligo in the 1970s. Her mother died when
+    she was 18, after which she emigrated to London with her sister, where her brothers
+    were already living. She got work and lived there for three to four years. She
+    then moved to Boston with a friend and worked as a nanny in the informal sector
+    for about six months. After that, she moved to Australia for about two years,
+    but moved back to the US when she got a Morrison Visa. She lived in New York for
+    about eight or nine years. She met her husband (who is also Irish) there and they
+    had three children. They returned to Ireland to her husband’s home-place in the
+    west of Ireland where they now live.
+  vmr_denomination_id: 99
+  vmr_gender_id: 92
+  birthplace_id: 45
+  residence_id: 43
+  childhood_residence_id: 45
+  duration: '4620'
+  date: 2004-05-11
+  vmr_age_group_id: 5
+206:
+  id: 206
+  code: NMRJDT-01
+  summary: Angela, 50s, from the Omagh area in west County Tyrone, emigrated from
+    NI in 1969 to join her military spouse in England. Over the years they were posted
+    to Malaysia, Singapore, Bahrain, Portugal and Cyprus, returning to their native
+    Tyrone permanently in 1990.
+  vmr_denomination_id: 3
+  vmr_gender_id: 92
+  birthplace_id: 26
+  residence_id: 26
+  childhood_residence_id: 26
+  duration: '4920'
+  date: 2004-07-09
+  vmr_age_group_id: 3
+207:
+  id: 207
+  code: NMRJDT-02
+  summary: Eamonn, 60s, from Muff in Co. Donegal first emigrated to British Columbia,
+    Canada in 1963 where he met and married his Canadian wife. They moved to Ontario
+    for a few years where they were employed as school teachers in the Ottawa region.
+    In 1968, with their first child, they decided to return to Ireland (Dublin) where
+    Eamonn worked in broadcasting and production with RTE. In 1973, the family (now
+    with 4 children) immigrated to St. John's, Newfoundland where Eamonn continued
+    his education and worked for the Canadian Broadcasting Corporation. The family
+    returned to Dublin in 1978. Eamonn and his wife have moved back to Donegal.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 46
+  residence_id: 47
+  childhood_residence_id: 27
+  duration: '9420'
+  date: 2004-07-14
+  vmr_age_group_id: 2
+208:
+  id: 208
+  code: NMRJDT-03
+  summary: Sean, 40s, was born and spent his early years in Wolverhampton. The family
+    moved back to rural Monaghan when Sean was 11. He went to London with his partner
+    in 1987 to seek better employment and returned to Belfast in 1990 where he worked
+    for several years before relocating to Donegal.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 48
+  residence_id: 27
+  childhood_residence_id: 49
+  duration: '5580'
+  date: 2004-08-09
+  vmr_age_group_id: 1
+209:
+  id: 209
+  code: NMRJDT-04
+  summary: Eileen, comes from a rural background in southwest Donegal. She went to
+    England in 1967 to train as a nurse and subsequently married her English husband
+    there. She lived in Sheffield, Manchester and Plymouth. In the early 1970s, she
+    and her husband left for Zambia to work in the coppermining industry for two years.
+    They returned to England (Lancashire) and eventually back to Ireland in 1979 with
+    their two sons.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 27
+  residence_id: 27
+  childhood_residence_id: 27
+  duration: '8340'
+  date: 2004-08-13
+  vmr_age_group_id: 3
+210:
+  id: 210
+  code: NMRJDT-05
+  summary: Eilís, 70s, was raised in Derry / Londonderry. In 1958, she moved to the
+    New York area where she joined relatives. She eventually trained as a nurse there,
+    but returned to Derry / Londonderry in 1995 to look after an elderly relative
+    and decided to stay. Throughout her years in New York, Eilis travelled back to
+    Ireland almost every year.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 50
+  residence_id: 51
+  childhood_residence_id: 51
+  duration: '4500'
+  date: 2004-08-16
+  vmr_age_group_id: 4
+211:
+  id: 211
+  code: NMRJDT-06
+  summary: Laura, 70s, was raised in Derry / Londonderry. She emigrated with her husband
+    from Co. Antrim to Detroit, Michigan in 1955 and only returned in 2003, after
+    the death of her husband.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 48
+  residence_id: 51
+  childhood_residence_id: 51
+  duration: '9240'
+  date: 2004-08-16
+  vmr_age_group_id: 4
+212:
+  id: 212
+  code: NMRJDT-07
+  summary: Maurice, 60s, was raised in Moville, Co. Donegal and attended secondary
+    school in Derry / Londonderry. He decided to train for the priesthood at St. Patrick's
+    Seminary in Carlow and was eventually assigned to parishes in England (Sussex,
+    Surrey and London). He lives in semi-retirement in west Donegal since 2003.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 27
+  residence_id: 27
+  childhood_residence_id: 27
+  duration: '9420'
+  date: 2004-08-17
+  vmr_age_group_id: 2
+213:
+  id: 213
+  code: NMRJDT-08
+  summary: William, 70s, was raised on a farm near the village of Gortin, Co. Tyrone.
+    As a young man in 1954, he left for Scotland to seek employment. He met and married
+    a Scottish woman and they returned to live near Gortin in 1993.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 26
+  residence_id: 26
+  childhood_residence_id: 26
+  duration: '6540'
+  date: 2004-09-07
+  vmr_age_group_id: 4
+214:
+  id: 214
+  code: NMRJDT-09
+  summary: Anthony, 60s, was raised on a farm in west Donegal. He trained for the
+    priesthood at St. Patrick's Seminary, Carlow and left in 1965 for Missouri, USA,
+    where he worked in various parts of the state. He retired to west Donegal in 2003.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 27
+  residence_id: 27
+  childhood_residence_id: 27
+  duration: '11520'
+  date: 2004-09-14
+  vmr_age_group_id: 2
+215:
+  id: 215
+  code: NMRJDT-10
+  summary: Sharon, 40s, was born in Co. Tyrone. During her childhood (1970s) her family
+    moved back and forth between Tyrone and New York City, where they eventually settled.
+    Sharon trained as a police officer and worked for the NYPD for many years, but
+    decided to return to Tyrone in 1996 as a lone parent with two young children.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 52
+  residence_id: 26
+  childhood_residence_id: 26
+  duration: '6540'
+  date: 2004-09-16
+  vmr_age_group_id: 1
+216:
+  id: 216
+  code: NMRJDT-11
+  summary: Alex, 40s, was raised in the Ballysillan area of North Belfast. He trained
+    in optical engineering at the Jordanstown campus of the University of Ulster.
+    In 1998, he, his wife and 4 children moved to Ottawa, Canada, where Alex was employed
+    in the telecommunications engineering industry by Nortel. The family returned
+    to the Belfast area after two years, but they went back to Ottawa again in 2001.
+    They returned to Co. Antrim in 2003.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 22
+  childhood_residence_id: 23
+  duration: '6900'
+  date: 2004-09-30
+  vmr_age_group_id: 1
+217:
+  id: 217
+  code: NMRJDT-12
+  summary: Ken, 50s, was raised on a farm on the Tyrone / Derry / Londonderry border.
+    He went to England in 1969 where he worked as a navvy building motorways. He returned
+    to the farm after 18 months. In 1974, he went to rural Ontario to work as a farm
+    labourer. From there, he went on to Alberta, where he worked in construction in
+    Medicine Hat, Edmonton and later Fort McMurray. He returned to Co. Derry / Londonderry
+    in 1984 due to family reasons but is considering returning permanently to Canada.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 53
+  residence_id: 53
+  childhood_residence_id: 53
+  duration: '7560'
+  date: 2004-10-05
+  vmr_age_group_id: 3
+218:
+  id: 218
+  code: NMRJDT-13
+  summary: Rose, 80s, was raised on a farm in near Greencastle, Co. Tyrone. She left
+    for England in 1939 to train as a nurse and worked in London right through the
+    blitz and the war. In 1972, she decided to return to Derry where she worked at
+    Altnagelvin Hospital. Due to the difficult times, however, she left again in 1974
+    to return to England. She retired to Gortin, Co. Tyrone in 1980.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 26
+  residence_id: 26
+  childhood_residence_id: 26
+  duration: '6840'
+  date: 2004-10-12
+  vmr_age_group_id: 7
+219:
+  id: 219
+  code: NMRJDT-14
+  summary: Don, 50s, was raised in the Creggan area of Derry / Londonderry. He left
+    for Canada in 1972 and worked first in Toronto and then in a small town in Southwestern
+    Ontario. He returned to Derry in 1976 to get married with the intention of going
+    back to Canada, but got a job in Derry / Londonderry and stayed. In 1990, he,
+    his wife and 3 children immigrated to Adelaide, Australia. Unable to find stable
+    permanent employment, however, he and his family returned to Derry / Londonderry
+    in 1991. As an engineer working in the oil industry, Don now travels the world
+    and spends much time abroad.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 51
+  residence_id: 51
+  childhood_residence_id: 51
+  duration: '4680'
+  date: 2004-10-18
+  vmr_age_group_id: 3
+220:
+  id: 220
+  code: NMRJDT-15
+  summary: Stephen, 30s, was born and raised in the Belfast area. In 1988, he went
+    to do postgraduate study in Canada, where he lived first in Vancouver and later
+    Toronto. He moved to Leeds, England in 1995 and worked there for a few years but
+    decided to return to Belfast in 2000.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 23
+  childhood_residence_id: 54
+  duration: '4920'
+  date: 2004-10-22
+  vmr_age_group_id: 5
+221:
+  id: 221
+  code: NMRJDT-16
+  summary: Carol, 30s, was raised in Bangor, Co. Down and attended secondary school
+    in Belfast. She went to Birmingham in 1989  to attend university and met her English
+    husband there. They moved to Belfast in 2000, eventually settling in Bangor.
+  vmr_denomination_id: 3
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 54
+  childhood_residence_id: 54
+  duration: '3720'
+  date: 2004-10-22
+  vmr_age_group_id: 5
+222:
+  id: 222
+  code: NMRJDT-17
+  summary: Seamus, 50s, was born and raised in Derry / Londonderry. He immigrated
+    with his wife to Toronto in 1974 and he travelled with his work all over Canada.
+    He and his wife returned to Derry / Londonderry in 1980.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 26
+  residence_id: 51
+  childhood_residence_id: 26
+  duration: '7560'
+  date: 2004-11-02
+  vmr_age_group_id: 3
+223:
+  id: 223
+  code: NMRJDT-18
+  summary: James, 70s, was born in Portadown, Co. Armagh. He lived and worked in Armagh
+    and Belfast but decided to leave with his wife for Glasgow in 1969. The family
+    returned to Belfast in 1988.
+  vmr_denomination_id: 4
+  vmr_gender_id: 91
+  birthplace_id: 24
+  residence_id: 23
+  childhood_residence_id: 24
+  duration: '7620'
+  date: 2004-11-12
+  vmr_age_group_id: 4
+224:
+  id: 224
+  code: NMRJDT-19
+  summary: Bríd, 50s, grew up in the Falls Road neighbourhood of West Belfast. She
+    emigrated with her husband and young baby from Belfast to Ontario in 1974. They
+    lived in rural eastern Ontario and later Toronto, where Bridget eventually ran
+    a successful retail business. She returned with her second Canadian-born husband
+    to Belfast in 1999.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 23
+  childhood_residence_id: 23
+  duration: '0.0'
+  date: 2004-11-13
+  vmr_age_group_id: 3
+225:
+  id: 225
+  code: NMRJDT-20
+  summary: Patrick, 50s, was born in Bangalore, India while his father was on military
+    service in the British Army, but the family returned to Strabane, Co. Tyrone when
+    Patrick was still a baby. He enlisted in the British Army in 1959 and was sent
+    for training in England. Patrick was stationed for most of his career in the Newbury
+    area, but also did a stint at RAF Osnabruck in Germany. He and his English wife
+    relocated to the Gortin, Tyrone area in 2003, where Patrick is employed locally.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 55
+  residence_id: 26
+  childhood_residence_id: 26
+  duration: '6480'
+  date: 2004-11-20
+  vmr_age_group_id: 3
+226:
+  id: 226
+  code: NMRJDT-21
+  summary: Vincent, 50s, from the Shankill in West Belfast went to London in 1971
+    with his future wife, where he worked for British Telecom and later the Royal
+    Mail. They remain in London where their grown children also live but spend much
+    time going back and forth between London and Belfast.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 35
+  childhood_residence_id: 23
+  duration: '6780'
+  date: 2004-12-05
+  vmr_age_group_id: 3
+227:
+  id: 227
+  code: NMRJDT-22
+  summary: 'Gary, 40s, from Sandy Row in Belfast first immigrated with his wife and
+    children in 1987 to Los Angeles to work in the aircraft industry. Due to the recession
+    in the USA, they returned to Belfast in 1990, although initially Gary commuted
+    for work to Amsterdam before he was re-employed at Shorts. The family re-immigrated
+    to the United States in 1997, this time to the Seattle region where they now live. '
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 56
+  childhood_residence_id: 23
+  duration: '6600'
+  date: 2004-12-06
+  vmr_age_group_id: 1
+228:
+  id: 228
+  code: NMRJDT-23
+  summary: Kathleen, 30s, was born in London of Donegal parents. The family returned
+    to Donegal when Kathleen was a baby but moved to Liverpool when she was only 5,
+    returning again to Donegal when she was around 7. After training as a speech therapist
+    which included some periods of internship in New York State,  Kathleen left Ireland
+    to take a job in Ontario in 1988. In 1991, she left Canada to join her American
+    husband in Upstate New York. She returned to Donegal in 1997.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 48
+  residence_id: 27
+  childhood_residence_id: 27
+  duration: '7740'
+  date: 2005-01-06
+  vmr_age_group_id: 5
+229:
+  id: 229
+  code: NMRJDT-24
+  summary: Ciaran, 40s, was born into a large family and raised in a village in South
+    Tyrone. He worked in construction in the area before leaving in 1982 to find better
+    work in England. In 1984, he returned to Tyrone, but due to lack to good employment,
+    left in 1985 for New York. In 1987, he moved to San Francisco, California where
+    he continued to work in construction. From there Ciaran went to Sydney, Australia
+    for a year in 1989, but went back to San Francisco for 5 months before returning
+    permanently to Tyrone in the spring of 1990.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 26
+  residence_id: 26
+  childhood_residence_id: 26
+  duration: '7920'
+  date: 2005-01-27
+  vmr_age_group_id: 1
+230:
+  id: 230
+  code: NMRJDT-25
+  summary: Freddie, 60s, was born and raised in Ballymoney, Co. Antrim. After working
+    at various office jobs and on his grandfather's farm, he joined the RAF Intelligence
+    Corp in 1960 and was stationed abroad first in Cyprus, later at RAF Gutersloh
+    in Germany, and then back in England. In the late 1960s, he retired from the RAF
+    and went to work in Saudi Arabia for a year. In 1970, he returned briefly to NI
+    but then accepted a job in Zambia where he met and married his wife. He and his
+    wife returned to Ballymoney in 1973 where they raised their family.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 22
+  residence_id: 22
+  childhood_residence_id: 22
+  duration: '9960'
+  date: 2005-02-02
+  vmr_age_group_id: 2
+231:
+  id: 231
+  code: NMRJDT-26
+  summary: Helen, 40s, was born and raised in Monaghan. In 1987, she went to Germany
+    where her brother had already emigrated and worked in the tourism trade in Bavaria.
+    She moved from there to London in 1988, again to join a brother, and stayed until
+    1994 when she returned to Monaghan.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 57
+  residence_id: 49
+  childhood_residence_id: 49
+  duration: '5340'
+  date: 2005-02-15
+  vmr_age_group_id: 1
+232:
+  id: 232
+  code: NMRJDT-27
+  summary: Niall, 70s, was born near Bristol, England to a Northern Ireland family
+    that originated from Kilcoo in the Mourne Mountains of South Down. The family
+    returned to Dublin when Niall was in secondary school. He attended medical school
+    in Dublin and then from the early 1950s worked at internships in Exeter and Plymouth.
+    In 1955, he left for Arizona and later worked as a medical practioner and academic
+    in Buffalo, New York and at John Hopkins University in Baltimore, Maryland. He
+    retired with his American wife back to Newcastle, Co. Down in 2004.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 48
+  residence_id: 18
+  childhood_residence_id: 58
+  duration: '5640'
+  date: 2005-02-16
+  vmr_age_group_id: 4
+233:
+  id: 233
+  code: NMRJDT-28
+  summary: 'Patrick, 50s, was born and raised in Clones, Monaghan. In 1971, he worked
+    for a year in the construction industry in London, but returned to train as a
+    priest in Maynooth, leaving in 1980, for the missions in Ecuador, South America.
+    After working in parishes there for many years, he left the priesthood, married
+    an Ecuadoran and had children. He returned with his wife and children to Omagh,
+    Co. Tyrone in 2004. Technical note: the hum on the recording was caused by interference
+    from the wireless communications network at the interview location.'
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 49
+  residence_id: 26
+  childhood_residence_id: 49
+  duration: '6000'
+  date: 2005-02-01
+  vmr_age_group_id: 3
+234:
+  id: 234
+  code: NMRJDT-29
+  summary: Alan, 30s, was born in Lurgan, Co. Armagh. After living as a very young
+    child in Scotland and England, the family relocated to Hong Kong when he was 5
+    years old. He left Hong Kong in 1993 to attend Queen's University in Belfast and
+    after graduation returned to Hong Kong in 1996. Due to the handover of Hong Kong
+    back to China, he returned to NI in 1997 and now works in Belfast.
+  vmr_denomination_id: 6
+  vmr_gender_id: 91
+  birthplace_id: 24
+  residence_id: 24
+  childhood_residence_id: 59
+  duration: '3480'
+  date: 2005-03-09
+  vmr_age_group_id: 5
+235:
+  id: 235
+  code: NMRJDT-30
+  summary: Mary, 70s, was raised in Blackrock, Dublin by a family friend, due the
+    the early death of her Fermanagh-born mother. In 1952, she left for London to
+    train as a nurse but returned to the Dublin region in 1956, married and raised
+    her family. She relocated to England with her second husband in 1984 and lived
+    first in London and later in Somerset. In 1987, she and her husband moved to rural
+    Spain and started their own pottery business, which they then moved to Enniscorthy,
+    Co. Wexford in 1991. After selling the business, they moved to Dorset in 1998
+    for a year and then to Malaga in Spain. They relocated to Fermanagh in 2003.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 58
+  residence_id: 33
+  childhood_residence_id: 58
+  duration: '7920'
+  date: 2005-03-16
+  vmr_age_group_id: 4
+236:
+  id: 236
+  code: NMRJDT-31
+  summary: Julia and Victor, are a married couple, she, 50s, from Fermanagh, he, 60s,
+    from Tyrone. They emigrated from NI in 1975, first to Kent, and in 1977 to Devon.
+    In 1999, they returned to Fermanagh. As the interview was not completed at this
+    sitting, a second interview was conducted on a different day, see NMRJDT-32.
+  vmr_denomination_id: 3
+  vmr_gender_id: 93
+  birthplace_id: 60
+  residence_id: 33
+  childhood_residence_id: 61
+  duration: '6600'
+  date: 2005-03-29
+  vmr_age_group_id: 3
+237:
+  id: 237
+  code: NMRJDT-32
+  summary: Julia and Victor, are a married couple, she, 50s, from Fermanagh, he, 60s,
+    from Tyrone. They emigrated from NI in 1975, first to Kent, and in 1977 to Devon.
+    In 1999, they returned to Fermanagh. This is the second interview of two interviews
+    conducted with them. For the first interview, see NMRJDT-31.
+  vmr_denomination_id: 2
+  vmr_gender_id: 93
+  birthplace_id: 60
+  residence_id: 33
+  childhood_residence_id: 61
+  duration: '6480'
+  date: 2005-04-21
+  vmr_age_group_id: 3
+238:
+  id: 238
+  code: NMRJDT-33
+  summary: Fergal, 30s, was raised in a village on the Fermanagh - Leitrim border,
+    and later in Enniskillen. After attending Queen's University and further training
+    in the hospitality industry, Fergal relocated to Leuven in Belgium in 1997. He
+    later changed jobs and worked in Brussels, but commuted from Leuven. He returned
+    to Ireland in 2001 working first in Donegal and then in Clare, but moved back
+    to Fermanagh in 2003.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 33
+  residence_id: 33
+  childhood_residence_id: 33
+  duration: '7680'
+  date: 2005-04-01
+  vmr_age_group_id: 5
+239:
+  id: 239
+  code: NMRJDT-34
+  summary: Susan, 40s, was born and raised in South Belfast. She relocated to London
+    in 1976 to attend university and then moved on to Brussels in 1977 and to Paris
+    in 1978. In the autumn of 1979, she returned to college in Belfast but her course
+    included another year in Paris during 1982-83. After graduation, she moved back
+    to London in 1985, but returned to Belfast later in the year. Due to the lack
+    of stable employment in NI she returned to London in 1986 for a couple of years,
+    but moved back permanently to Belfast in 1988.
+  vmr_denomination_id: 2
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 23
+  childhood_residence_id: 23
+  duration: '6300'
+  date: 2005-04-07
+  vmr_age_group_id: 1
+240:
+  id: 240
+  code: NMRJDT-35
+  summary: Stewart, 50s, was born and raised on the cityside of Derry / Londonderry.
+    He moved to London in 1966 and worked in retail management for 12 years. In 1978,
+    he moved to France where in lived in various places including Lille and Paris.
+    He returned to Derry / Londonderry in 1986 to study at Magee College, but spent
+    another year in Paris, France as part of his course in 1988-89. He moved from
+    NI to London in 1990 to find suitable employment and returned to Derry / Londonderry
+    in 1995 to look after his elderly mother. He has been active all his life in rugby
+    associations in all the places he has lived and now resides on the Waterside of
+    Derry / Londonderry.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 51
+  residence_id: 51
+  childhood_residence_id: 51
+  duration: '9180'
+  date: 2005-04-12
+  vmr_age_group_id: 3
+241:
+  id: 241
+  code: NMRJDT-36
+  summary: Una, 40s, was raised in a small village in Co. Derry / Londonderry. After
+    college in Belfast, she left in 1987 for work in the medical field in Bristol.
+    From there, she moved to London in 1991. She returned to marry in 1999 and now
+    resides in Co. Antrim.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 53
+  residence_id: 22
+  childhood_residence_id: 53
+  duration: '6780'
+  date: 2005-04-18
+  vmr_age_group_id: 1
+242:
+  id: 242
+  code: NMRJDT-37
+  summary: Theresa, 50s, was raised in North Belfast. After college and marriage in
+    Belfast, she and her husband moved in 1972, first to Cambridge, then to London
+    and eventually to the suburbs in Essex. In 1987, the family moved to Spain but
+    returned England after 6 months, this time to the West Midlands. In 2004, Theresa
+    returned to NI with her second husband and they reside in South Down.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 18
+  childhood_residence_id: 23
+  duration: '7500'
+  date: 2005-04-19
+  vmr_age_group_id: 3
+243:
+  id: 243
+  code: NMRJDT-38
+  summary: Colm, 50s, was born and raised in Andersonstown, West Belfast. In 1979,
+    he moved to Edinburgh to work for a large multi-national oil company. He then
+    moved to England in 1982, first living in Swindon, then from 1986 in Guildford
+    and from 1995 in the Wirral. He returned to NI in 1999 and now works in Belfast,
+    but resides in South Down.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 18
+  childhood_residence_id: 23
+  duration: '7200'
+  date: 2005-04-19
+  vmr_age_group_id: 3
+244:
+  id: 244
+  code: NMRJDT-39
+  summary: Ron, 50s, was born and raised in East Belfast. After attending university
+    in Coleraine, he took a teaching job in Lisburn. In 1978, he moved with his wife
+    to Zambia where he worked first as a teacher and then as a school principal. He
+    returned with his wife and Zambian-born children to Co. Antrim in 1990 due to
+    the lack of suitable secondary education there and began a new career running
+    a charitable organisation.
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 22
+  childhood_residence_id: 23
+  duration: '4620'
+  date: 2005-04-25
+  vmr_age_group_id: 3
+245:
+  id: 245
+  code: NMRJDT-40
+  summary: Elizabeth, 40s, was raised in North Belfast. In 1983, she moved to England
+    for a year and then spent time travelling in Europe eventually landing in Cyprus.
+    She moved to California to join her American husband in 1988, but returned to
+    NI in 1996 after the break-up of her marriage. She is now remarried and resides
+    in Co. Antrim.
+  vmr_denomination_id: 2
+  vmr_gender_id: 92
+  birthplace_id: 23
+  residence_id: 22
+  childhood_residence_id: 23
+  duration: '8100'
+  date: 2005-04-25
+  vmr_age_group_id: 1
+246:
+  id: 246
+  code: NMRJDT-41
+  summary: Liam, 30s, was raised in a village in south Co. Tyrone. After graduating
+    from university in Belfast, he moved to Cumbria where he worked in the nuclear
+    power industry based at Sellafield. He returned to Belfast with his wife and two
+    children in 2004.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 26
+  residence_id: 23
+  childhood_residence_id: 26
+  duration: '4560'
+  date: 2005-04-26
+  vmr_age_group_id: 5
+247:
+  id: 247
+  code: NMRJDT-42
+  summary: Deirdre, 50s, was born and raised in Strabane, Co. Tyrone. She moved to
+    Belfast in 1968 where she was exposed firsthand to social activism. She then moved
+    to London in 1972 and later to other parts of England - Lancaster (from 1975)  and
+    later Manchester (from 1978) - where she continued work in the social and human
+    rights fields. In 1996, she moved to Lille, France and then on to Brussels in
+    1998. She returned to Co. Donegal in 2001 from where she continues to work on
+    pan-European social projects.
+  vmr_denomination_id: 1
+  vmr_gender_id: 92
+  birthplace_id: 26
+  residence_id: 27
+  childhood_residence_id: 26
+  duration: '5640'
+  date: 2005-05-19
+  vmr_age_group_id: 3
+248:
+  id: 248
+  code: NMRJDT-43
+  summary: 'Harry, 70s, was raised in East Belfast. He trained in meteorology in London
+    in 1947 and was then stationed at RAF Aldergrove in 1948. Leaving that line of
+    work, he returned to Belfast in 1949 but decided to emigrate to Toronto in 1952.
+    Aboard ship, he met his future wife and they later married in Canada. He was employed
+    by the Canadian weather service and stationed in the Arctic in various locations
+    from 1954-1962. The couple returned to Belfast with two children in 1962 and Harry
+    and his brothers embarked on various business ventures. Due to the Troubles, Harry
+    and his family relocated to Armagh around 1970.  Technical note: There is an audible
+    hum caused by unknown electrical interference at the site of the interview.'
+  vmr_denomination_id: 2
+  vmr_gender_id: 91
+  birthplace_id: 23
+  residence_id: 24
+  childhood_residence_id: 23
+  duration: '8700'
+  date: 2005-06-30
+  vmr_age_group_id: 4
+249:
+  id: 249
+  code: NMRJDT-44
+  summary: Brendan, 60s, from rural Co. Tyrone first moved to England in 1959 where
+    he lived in Luton and worked in manufacturing. He returned to Tyrone in 1961 and
+    was employed doing various labouring jobs around his area. He left again for England
+    in 1963 and worked on the building of the M6 motorway near Wiggin. He returned
+    briefly to NI, but decided to move to New York in 1963 where he and his wife lived
+    in the Bronx. In 1972, he returned to live in Omagh, his wife having returned
+    a couple of years previously.
+  vmr_denomination_id: 1
+  vmr_gender_id: 91
+  birthplace_id: 26
+  residence_id: 26
+  childhood_residence_id: 26
+  duration: '8400'
+  date: 2006-01-18
+  vmr_age_group_id: 2
