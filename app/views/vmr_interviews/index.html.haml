@@ -3,27 +3,27 @@
   %fieldset
     %legend Demographics
     = label_tag :gender, 'Gender'
-    = collection_select :vmr_gender_id, VmrGender.all, :id, :name, prompt: true
+    = #collection_select :vmr_gender_id, VmrGender.all, :id, :name, prompt: true
     = label_tag :age_group, 'Age Group'
-    = collection_select :vmr_age_group_id, VmrAgeGroup.order(:name).all, :id, :name, prompt: true
+    = #collection_select :vmr_age_group_id, VmrAgeGroup.order(:name).all, :id, :name, prompt: true
     = label_tag :denomination, 'Denomination'
-    = collection_select :vmr_denomination_id, VmrDenomination.order(:name).all, :id, :name, prompt: true
+    = #collection_select :vmr_denomination_id, VmrDenomination.order(:name).all, :id, :name, prompt: true
   %fieldset
     %legend Places
     = label_tag :birthplace, 'Birthplace'
-    = collection_select :birthplace_id, VmrInterview.all_birthplaces, :id, :name, :prompt: true
+    = #collection_select :birthplace_id, VmrInterview.all_birthplaces, :id, :name, :prompt: true
     = label_tag :childhood_residence, 'Childhood Residence'
-    = collection_select :childhood_residence_id, VmrInterview.all_childhood_residences, :id, :name, prompt: true
+    = #collection_select :childhood_residence_id, VmrInterview.all_childhood_residences, :id, :name, prompt: true
     %span Current Residence
-    = collection_select :residence_id, VmrInterview.all_residences, :id, :name, prompt: true
+    = #collection_select :residence_id, VmrInterview.all_residences, :id, :name, prompt: true
     %span Destination
-    = collection_select :vmr_destination_id, VmrInterview.all_destinations, :id, :name, prompt: true
+    = #collection_select :vmr_destination_id, VmrInterview.all_destinations, :id, :name, prompt: true
   %fieldset
     %legend Migration Decades
     = label_tag :emigration, 'Emigration'
-    = collection_select :vmr_emigration_id, VmrDecade.order(:name), :id, :name, prompt: true
+    = #collection_select :vmr_emigration_id, VmrDecade.order(:name), :id, :name, prompt: true
     = label_tag :return, 'Return'
-    = collection_select :vmr_return_id, VmrDecade.order(:name), :id, :name, prompt: true
+    = #collection_select :vmr_return_id, VmrDecade.order(:name), :id, :name, prompt: true
 
 %table
   %thead

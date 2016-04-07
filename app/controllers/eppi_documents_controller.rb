@@ -1,6 +1,6 @@
 class EppiDocumentsController < ApplicationController
   def index
-    params ||= { q: '', qclean: '', page: 1, sort: :title,
+    params ||= { q: '', qclean: '', page: 1, sort: :title_actual,
                  sort_dir: :asc, cat: { '0' => 'on' }, fields: :titles }
 
     # Override sort when chronologic checkbox ticked.

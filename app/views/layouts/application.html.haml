@@ -3,10 +3,19 @@
   %head
     %link{ rel: :icon,  href: '/favicon.gif', type: 'image/gif' }
     %title= "DIPPAM | #{yield :title}"
+    = stylesheet_link_tag 'style'
   %body
-    = yield :aside
-    %main
-      %h1.title= yield :title
+    %header
+      %h1 DIPPAM API
+      %nav
+        = link_to 'EPPI', eppi_documents_url
+        = link_to 'IED',  ied_records_url
+        = link_to 'VMR',  vmr_interviews_url
       - flash.each do |kind|
         #flash{ class: kind }= flash[:notice]
+    %main
+      %h2= yield :title
+      = yield :aside
       = yield
+    %footer
+      %p.source= link_to 'Source', 'https://www.github.com/dippam/api'

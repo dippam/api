@@ -24,6 +24,7 @@ class IedRecord < ActiveRecord::Base
   # Accessor Methods
   def self.earliest; minimum(:timestamp).strftime('%Y-%m-%d'); end
   def self.latest; maximum(:timestamp).strftime('%Y-%m-%d'); end
+  def num_images; ied_enclosures.size; end
 
   # Search customisations - preprocess query, send to SOLR, fetch results.
   def self.do_search params
@@ -33,7 +34,7 @@ class IedRecord < ActiveRecord::Base
       order_by params[:sort], params[:sort_dir] if params.key? :sort_dir
       paginate page: params[:page], per_page: params[:per_page] if params.key? :page
       with(:timestamp).greater_than(Date.parse params[:start]) if params.key? :start
-      with(:timestamp).less_than(Date.parse params[:end]) if criteria.key? :end
+      #with(:timestamp).less_than(Date.parse params[:end]) if criteria.key? :end
       keywords ''
       facet :ied_chapter_id
     end

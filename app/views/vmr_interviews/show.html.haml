@@ -4,7 +4,6 @@
   %h2 Summary
   %p= highlight @vmr_interview.summary, params[:q]
 
-
 %dl
   %dt Gender
   %dd= @vmr_interview.vmr_gender.name
@@ -12,15 +11,15 @@
   %dd= @vmr_interview.vmr_age_group.name
   %dt Denomination
   %dd= @vmr_interview.vmr_denomination.name
-  - if @vmr_interview.birthplace.name == @vmr_interview.childhood_residence.name
+  - if false # @vmr_interview.birthplace.name == @vmr_interview.childhood_residence.name
     %dt Birthplace
     %dd= @vmr_interview.birthplace.name
   %dt Childhood Residence
-  %dd= @vmr_interview.childhood_residence.name
+  %dd= # @vmr_interview.childhood_residence.name
   %dt Current Residence
-  %dd= @vmr_interview.residence.name
+  %dd= # @vmr_interview.residence.name
   %dt Date of Interview
-  %dd= @vmr_interview.date.strftime('%d/%m/%Y')
+  %dd= # @vmr_interview.date.strftime('%d/%m/%Y')
 
   - rows = [@vmr_interview.vmr_destinations.size, @vmr_interview.vmr_emigrations.size, @vmr_interview.vmr_returns.size].max
   #destinations

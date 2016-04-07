@@ -27,6 +27,6 @@
     - @results.each_hit_with_result do |hit, r|
       %tr
         %td= link_to r.code, r
-        %td= link_to highlight(r.eppi_breviate.title, params[:q]), r
-        %td= r.eppi_session.name 
+        %td= #link_to highlight(r.eppi_breviate.title_actual, params[:q]), r
+        %td= #r.eppi_session.name 
         %td= r.eppi_pages.size

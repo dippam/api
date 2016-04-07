@@ -22,8 +22,8 @@ class EppiDocument < ActiveRecord::Base
 
   # Sunspot Indexing
   searchable do
-    text :title, stored: true
-    string :title
+    text :title_actual, stored: true
+    string :title_actual
     string :published
     string :session
     text :content
@@ -39,9 +39,9 @@ class EppiDocument < ActiveRecord::Base
     search do
       if params[:qclean].size == 0 then
         case params[:fields]
-        when 'titles' then keywords params[:qclean], fields: :title
+        when 'titles' then keywords params[:qclean], fields: :title_actual
         when 'code' then with(:code).starting_with params[:qclean].upcase
-        when 'exact_title' then with(:title).starting_with params[:qclean]
+        when 'exact_title' then with(:title_actual).starting_with params[:qclean]
         when 'paper_no' then with(:paper_no).starting_with params[:qclean]
         else keywords params[:q]
         end 
@@ -101,4 +101,5 @@ class EppiDocument < ActiveRecord::Base
     
     output
   end
+end
 end

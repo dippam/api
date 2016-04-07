@@ -2,8 +2,8 @@ class IedRecordsController < ApplicationController
   def index
     params ||= { q: '', page: 1, sort: 'timestamp',
                  cat: {'0' => 'on'}, sort_dir: :asc, 
-                 start: "1/1/#{IedRecord.earliest.year}", 
-                 end: "31/12/#{IedRecord.latest.year}", 
+                 #start: "1/1/#{IedRecord.earliest.year}", 
+                 #end: "31/12/#{IedRecord.latest.year}", 
                  page: 1, per_page: 15, exact: true
     }
     @results = IedRecord.do_search params

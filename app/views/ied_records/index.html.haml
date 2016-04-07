@@ -22,7 +22,5 @@
         %td
           - unless r.timestamp.nil?
             = r.timestamp.strftime('%d-%m-%Y') 
-        %tdp= link_to highlight(r.name, params[:q]), r
-        %td
-          - unless r.category.nil?
-            = link_to r.category.name, r.category
+        %td= link_to highlight(r.name, params[:q]), r
+        %td= # link_to r.category.name, r.category
