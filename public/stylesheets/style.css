@@ -1,0 +1,19 @@
+body { font: 0.9em Roboto, Helvetica, Arial, sans-serif; margin: 0; min-height: 100vh; }
+
+header { background: #14743D; color: #FFF; padding: 1em; }
+header h1 { font-weight: normal; }
+header nav { }
+header nav a { color: #FFF; text-decoration: none; }
+
+
+
+
+form { float: left; }
+form fieldset { border: 0; padding: 0 0 1em 0; }
+form label { display: block; }
+
+table { border: 1px solid #CCC; border-collapse: collapse; }
+table th, td { border-bottom: 1px solid #CCC;  padding: 0.5em; }
+table th { background: #333; color: #FFF; text-align: left; }
+table tbody tr:nth-child(2n) { background: #F7F7F7; }
+
