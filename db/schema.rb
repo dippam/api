@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160406230833) do
+ActiveRecord::Schema.define(version: 20160407142115) do
 
   create_table "collections", force: :cascade do |t|
     t.string   "name"
@@ -71,6 +71,17 @@ ActiveRecord::Schema.define(version: 20160406230833) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "session"
+    t.string   "doctype"
+    t.string   "date_appointed"
+    t.string   "lc_subject_heading"
+    t.string   "breviate_keywords"
+    t.string   "breviate_title"
+    t.string   "breviate_volume"
+    t.string   "vol_arabic"
+    t.string   "session_old"
+    t.string   "session_year_from"
+    t.string   "session_year_to"
+    t.string   "date_published"
   end
 
   add_index "eppi_documents", ["authoritative_ref"], name: "index_eppi_documents_on_authoritative_ref"
