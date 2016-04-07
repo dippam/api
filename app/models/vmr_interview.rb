@@ -1,3 +1,7 @@
+# VmrInterview is the main document model of the VMR collection.
+#
+# VMR Interviews are text transcripts, plus audio source materials (tracks).
+# An interview are segmented into tracks based on topic.
 class VmrInterview < ActiveRecord::Base
   belongs_to :vmr_denomination
   belongs_to :vmr_gender
@@ -27,43 +31,33 @@ class VmrInterview < ActiveRecord::Base
     integer :vmr_age_group_id
   end 
   
-  def self.do_search(p)
+  def self.do_search params
     search do
-      keywords p['q'], highlight: true unless p['q'].size < 3
-      with :vmr_destination_ids, p['vmr_destination_id'] if p['vmr_destination_id'].present?
-      with :vmr_emigration_ids, p['vmr_emigration_id'] if p['vmr_emigration_id'].present?
-      with :vmr_return_ids,  p['vmr_return_id'] if p['vmr_return_id'].present?
-      with :birthplace_id, p['birthplace_id'] if p['birthplace_id'].present?
-      with :childhood_residence_id, p['childhood_residence_id'] if p['childhood_residence_id'].present?
-      with :residence_id, p['residence_id'] if p['residence_id'].present?
-      with :vmr_denomination_id, p['vmr_denomination_id'] if p['vmr_denomination_id'].present?
-      with :vmr_gender_id, p['vmr_gender_id'] if p['vmr_gender_id'].present?
-      with :vmr_age_group_id, p['vmr_age_group_id'] if p['vmr_age_group_id'].present?
-      order_by p['sort'], p['sort_dir']
-      paginate :page => p['page'], :per_page => p['per_page']
+      keywords params[:q], highlight: true unless params[:q].size < 3
+      with :vmr_destination_ids,    params[:vmr_destination_id]     if params[:vmr_destination_id].present?
+      with :vmr_emigration_ids,     params[:vmr_emigration_id]      if params[:vmr_emigration_id].present?
+      with :vmr_return_ids,         params[:vmr_return_id]          if params[:vmr_return_id].present?
+      with :birthplace_id,          params[:birthplace_id]          if params[:birthplace_id].present?
+      with :childhood_residence_id, params[:childhood_residence_id] if params[:childhood_residence_id].present?
+      with :residence_id,           params[:residence_id]           if params[:residence_id].present?
+      with :vmr_denomination_id,    params[:vmr_denomination_id]    if params[:vmr_denomination_id].present?
+      with :vmr_gender_id,          params[:vmr_gender_id]          if params[:vmr_gender_id].present?
+      with :vmr_age_group_id,       params[:vmr_age_group_id]       if params[:vmr_age_group_id].present?
+      order_by params[:sort], params[:sort_dir]
+      paginate page: params[:page], per_page: params[:per_page]
     end
   end
 
-  def length
-    vmr_tracks.sum('durationstr')
-  end
-
-  def keywords
+  # Accessor Methods
+  def length; vmr_tracks.sum('durationstr'); end
+  def keywords;
     vmr_tracks.empty? ? '' :
       vmr_tracks.map{|x| x.keywords[48..-5].split(',')}.flatten!.map{|x| x.strip}.uniq.join(', ') 
   end
 
-  def content
-    [keywords, destination_list, summary].join(' ')
-  end
-
-  def destination_list
-    vmr_destinations.map{|x| x.place.name}.to_sentence
-  end
-
-  def name
-    "#{code} #{destination_list}"
-  end
+  def content; [keywords, destination_list, summary].join(' '); end
+  def destination_list; vmr_destinations.map{|x| x.place.name}.to_sentence; end
+  def name; "#{code} #{destination_list}" end
 
   def self.all_birthplaces
     #    Place.find(VmrInterview.select("DISTINCT(birthplace_id)").map(&:birthplace_id), order: :name)
