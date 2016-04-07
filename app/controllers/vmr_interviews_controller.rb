@@ -1,4 +1,4 @@
-class VmrInterviewsController < InheritedResources::Base
+class VmrInterviewsController < ApplicationController
   def index
     params ||= { q: '', page: 1, per_page: 15, sort: :code, sort_dir: :asc, view: :list }
     @results = VmrInterview.do_search params
