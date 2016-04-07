@@ -1,10 +1,10 @@
 class EppiDocument < ActiveRecord::Base
+  has_many   :eppi_pages
+  has_one :summary_document, as: :source
   belongs_to :eppi_lc_subject
   belongs_to :eppi_doctype
-  has_many   :eppi_pages
   belongs_to :eppi_breviate
   belongs_to :eppi_session
-  has_one :summary_document, as: :source
 
   searchable do
     text :title, stored: true
@@ -44,8 +44,9 @@ class EppiDocument < ActiveRecord::Base
   def num_pages; eppi_pages.size; end
   def content; eppi_pages.map(&:content).join; end
   def title; eppi_breviate.title; end
-  def session; eppi_session.name; end
 
+  # Return the document code.
+  # Code formats vary over the years and also on source.
   def code
     return "#{source} #{session} (#{paper_no}) #{vol} #{start_page}" if source != 'CMD'
     
@@ -58,10 +59,12 @@ class EppiDocument < ActiveRecord::Base
     "HC #{session} [#{prefix}#{paper_no}] #{vol} #{start_page}"
   end
 
+  # Return a URI where the associated PDF can be accessed.
   def pdf_location
     "/pdf/#{authoritative_ref}.pdf" if File.exists? "public/pdf1/#{authoritative_ref}.pdf"
   end
-  
+
+  # Return the volume year in roman numerals.
   def vol_roman
     dict = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90,
              L: 50, XL: 40, X: 10, IX: 9,  V: 5, IV: 4, I: 1 };
