@@ -1,18 +1,21 @@
-body { font: 0.9em Roboto, Helvetica, Arial, sans-serif; margin: 0; min-height: 100vh; }
+body { display: flex; flex-direction: column; font: 0.9em Roboto, Helvetica, Arial, sans-serif; margin: 0; min-height: 100vh; }
 
-header { background: #14743D; color: #FFF; padding: 1em; }
-header h1 { font-weight: normal; }
+header { align-items: center; background: #222; color: #FFF; display: flex; padding: 0 1em; }
+header h1 { flex: 1; font-weight: normal; }
 header nav { }
-header nav a { color: #FFF; text-decoration: none; }
+header nav a { color: #FFF; padding: 1em; text-decoration: none; }
 
+main { display: flex; flex: 1; }
 
+footer { background: #222; color: #FFF; padding: 1em; }
+footer a { color: #FFF; }
 
-
-form { float: left; }
+form { background: #FFFFF7; padding: 1em; }
 form fieldset { border: 0; padding: 0 0 1em 0; }
-form label { display: block; }
+form label { display: block; font-weight: bold; }
+form input[type=text] { margin: 0 0 1em 0; padding: 0.25em; }
 
-table { border: 1px solid #CCC; border-collapse: collapse; }
+table { flex: 1; border: 1px solid #CCC; border-collapse: collapse; width: 100%; }
 table th, td { border-bottom: 1px solid #CCC;  padding: 0.5em; }
 table th { background: #333; color: #FFF; text-align: left; }
 table tbody tr:nth-child(2n) { background: #F7F7F7; }
